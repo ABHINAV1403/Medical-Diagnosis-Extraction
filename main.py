@@ -90,10 +90,6 @@ def process_image(image_path):
         if len(parts) > 1:
             provisional_diagnosis = parts[1].strip()
 
-    # Fallback if no clear diagnosis is found
-    if not provisional_diagnosis:
-        provisional_diagnosis = extracted_text  # Use full OCR output as fallback
-
     return provisional_diagnosis
 
 def find_diagnosis_line(lines):
