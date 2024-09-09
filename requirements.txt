@@ -1,0 +1,33 @@
+1. Software Requirements
+  •	Python 3.x: The code is written in Python and requires a compatible version.
+  •	Libraries/Modules:
+       o	OpenCV (cv2): Required for image processing and manipulation.(pip install opencv-python-headless)
+       o	Tesseract-OCR Installation: Pytesseract requires the Tesseract OCR engine to be installed and configured on your machine.
+       o	Pytesseract (pytesseract): Python wrapper for Google Tesseract OCR to extract text from images.
+For Windows- Install Python:
+Download and install Python from the official Python website.
+During installation, make sure to check the option to "Add Python to PATH."
+Install Tesseract-OCR:
+
+Download the Windows installer from "https://github.com/UB-Mannheim/tesseract/wiki".
+Run the installer and follow the prompts. Ensure that the option to add Tesseract to the system PATH is selected.
+In Command prompt-run -"pip install pytesseract"
+
+For macOS-Install Python
+
+Install Tesseract-OCR:In Terminal -run-"brew install tesseract"
+Install pytesseract-In Terminal -run- "pip install pytesseract".
+
+       o	NumPy (numpy): Used for matrix operations and image transformations.(pip install numpy)
+       o	Pandas (pandas): To store the extracted data in a tabular format and export it as an Excel file.(pip install pandas)
+       o	Difflib: For fuzzy matching (to handle variations in the diagnosis keyword).
+
+
+
+In the code , in the folder_path - change the path to the folder where all the input files are kept.
+
+The output excel file is stored in the same folder location.
+
+
+
+
