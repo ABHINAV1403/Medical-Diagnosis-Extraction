@@ -31,7 +31,7 @@ kernel = np.ones((2, 2), np.uint8)
 dilated_image = cv2.dilate(thresh_image, kernel, iterations=1)
 
 # Save the processed image for manual review (optional)
-processed_image_path = r"C:\Users\lenovo\OneDrive\Desktop\PS2-Samples-HackRX5\processed_sample5.png"
+processed_image_path = r"C:\Users\lenovo\OneDrive\Desktop\PS2-Samples-HackRX5\processed_sample.png"
 cv2.imwrite(processed_image_path, dilated_image)
 
 # Function to perform OCR with retries
