@@ -1,3 +1,3 @@
 # Medical-Diagnosis-Extraction
 
-Bajaj FInserv Hackathon
+Bajaj Finserv Hackathon
